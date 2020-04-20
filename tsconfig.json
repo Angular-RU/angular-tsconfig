@@ -42,7 +42,6 @@
         "noImplicitThis": true,
         "allowUmdGlobalAccess": true,
         "noFallthroughCasesInSwitch": true,
-        "typeRoots": ["./node_modules/@types"],
         "useDefineForClassFields": false
     }
 }

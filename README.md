@@ -29,7 +29,8 @@ Add to your `tsconfig.json`:
         // override shared compilerOptions
         outDir: 'dist',
         target: 'es2018',
-        lib: ['es2018']
+        lib: ['es2018'],
+        typeRoots: ['./node_modules/@types']
     }
 }
 ```
