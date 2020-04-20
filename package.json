@@ -1,0 +1,37 @@
+{
+    "name": "@angular-ru/tsconfig",
+    "version": "0.1.0",
+    "description": "Shared TypeScript config for Angular projects",
+    "keywords": [
+        "tsconfig",
+        "typescript",
+        "ts",
+        "config",
+        "configuration"
+    ],
+    "repository": "https://github.com/Angular-RU/angular-tsconfig",
+    "license": "MIT",
+    "author": {
+        "name": "Maxim Ivanov",
+        "email": "splincodewd@yandex.ru",
+        "url": "https://github.com/Angular-RU"
+    },
+    "main": "tsconfig.json",
+    "files": [
+        "tsconfig.json"
+    ],
+    "scripts": {
+        "format": "npx sort-package-json && npx prettier --write \"**/*.{ts,html,css,scss,md,js,json}\"",
+        "test": "echo 'test'"
+    },
+    "prettier": "@angular-ru/prettier-config",
+    "devDependencies": {
+        "@angular-ru/prettier-config": "12.6.0",
+        "sort-package-json": "1.41.0",
+        "typescript": "3.7.2"
+    },
+    "peerDependencies": {
+        "tslib": ">=1.11.1 < 2.0.0",
+        "typescript": ">=3.7.2 < 4.0.0"
+    }
+}
