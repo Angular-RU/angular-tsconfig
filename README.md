@@ -1,11 +1,11 @@
 # Shareable TypeScript config for Angular projects
 
 <p>
-  <a href="https://travis-ci.org/angular-ru/tsconfig">
-    <img src="https://api.travis-ci.org/Angular-RU/angular-tsconfig.svg?branch=master" />
+  <a href="https://travis-ci.org/github/Angular-RU/angular-tsconfig">
+    <img src="https://travis-ci.org/Angular-RU/angular-tsconfig.svg?branch=master" />
   </a>
   <a href="https://badge.fury.io/js/%40angular-ru%2Ftsconfig">
-    <img src="https://badge.fury.io/js/%40angular-ru%tsconfig.svg" />
+    <img src="https://badge.fury.io/js/%40angular-ru%2Ftsconfig.svg" />
   </a>
 </p>
 
