@@ -40,3 +40,26 @@ If you want to know which properties were inherited, you can do:
 ```bash
 $ tsc --showConfig --project tsconfig.json
 ```
+
+### FAQ
+
+- Uncaught ReferenceError: `__importDefault is not defined` in my Angular 8 project
+
+In the eighth version, this is not fixed, so you need to add such a line:
+
+`polyfils.ts`
+
+```ts
+(window as any)['__importDefault'] =
+    (this && (this as any).__importDefault) ||
+    function (mod: any): any {
+        return mod && mod.__esModule ? mod : { default: mod };
+    };
+```
+
+If you use Angular 9, this does not need to be done
+
+```
+// fixed since
+"@angular-devkit/build-angular": "~0.900.0"
+```
