@@ -27,7 +27,7 @@
     "prettier": "@angular-ru/prettier-config",
     "devDependencies": {
         "@angular-ru/prettier-config": "12.7.0",
-        "sort-package-json": "1.42.3",
+        "sort-package-json": "1.43.0",
         "typescript": "3.9.3"
     },
     "peerDependencies": {
